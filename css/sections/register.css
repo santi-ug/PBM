@@ -150,6 +150,41 @@ form input[type="radio"] {
     display: none;
 }
 
+.input__birthday {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 12px;
+}
+
+.input__birthday span {
+    font-family: var(--inter);
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: 600;
+    color: #000000;
+}
+
+.input__birthday input {
+    margin-top: 6px;
+    height: 40px;
+    width: calc(100%/2 - 20px);
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding-left: 12px;
+    padding-top: 4px;
+    font-size: 14px;
+    color: #808080;
+    border-bottom-width: 2px;
+    border-bottom-color: var(--accent);
+    transition: all 0.3s ease;
+}
+
+.input__birthday input:focus {
+    border: 1px solid var(--accent);
+}
+
 form .button {
     height: 40px;
     width: 100%;
