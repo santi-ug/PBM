@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="author" content="Santiago Uribe Gil" />
+		<meta name="application-name" content="Taller 1 HTML" />
+		<link rel="icon" href="assets/logo.png" />
+		<link rel="stylesheet" href="css/style.css" />
+		<script src="main.js"></script>
+		<title>Taller 1</title>
+	</head>
+
+	<body>
+		<header class="primary-header">
+			<div class="logo">
+				<a href="index.html">
+					<img src="assets/logo.png" alt="logo" />
+				</a>
+			</div>
+			<nav class>
+				<ul class="primary-navigation">
+					<li>
+						<a href="aboutus.html">About Us</a>
+					</li>
+					<li>
+						<a href="videos.html">Videos</a>
+					</li>
+					<li>
+						<a href="articles.html">Articles</a>
+					</li>
+					<li>
+						<a href="login.html">Login</a>
+					</li>
+					<li>
+						<a href="register.html">Register</a>
+					</li>
+				</ul>
+			</nav>
+		</header>
+
+		<div class="searchbar">
+			<input
+				type="text"
+				placeholder="Search for articles"
+				class="search-input"
+			/>
+			<button class="search-button">
+				<ion-icon name="search"></ion-icon>
+			</button>
+		</div>
+		<div class="filters">
+			<button>All</button>
+			<button>Relevance</button>
+			<button>Newest</button>
+			<button>Oldest</button>
+			<button>Hot Topics</button>
+		</div>
+		<div class="container">
+			<div class="articles-left">
+				<article class="article-card">
+					<div class="article-image">
+						<img
+							src="assets/consultation.png"
+							alt="doctors"
+							class="image-banner"
+						/>
+					</div>
+
+					<div class="article-content">
+						<a href="#">
+							<h3 class="article-title">
+								Blood Management in Surgical Patients: Guidelines, Risks, and
+								Benefits
+							</h3>
+						</a>
+						<p class="article-body">
+							The article advocates for a multidisciplinary approach to patient
+							blood management, underscoring its benefits in reducing healthcare
+							costs and improving surgical recovery times.
+						</p>
+
+						<div class="article-footer">
+							<div class="author">
+								<picture>
+									<img
+										src="assets/emily.png"
+										alt="emily"
+										class="author-avatar"
+									/>
+								</picture>
+								<div class="author-info">
+									<a href="#">
+										<h4 class="author-name">Emily Carter</h4>
+									</a>
+									<h5 class="publish-date">29 Aug 2023</h5>
+								</div>
+							</div>
+							<div class="share">
+								<button class="share-button">
+									<ion-icon name="arrow-redo"></ion-icon>
+								</button>
+
+								<div class="share-options">
+									<span>Share</span>
+
+									<a href="https://www.facebook.com/">
+										<ion-icon name="logo-facebook"></ion-icon>
+									</a>
+									<a href="https://twitter.com"
+										><ion-icon name="logo-twitter"></ion-icon
+									></a>
+									<a href="https://www.instagram.com/"
+										><ion-icon name="logo-instagram"></ion-icon
+									></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</article>
+				<article class="article-card">
+					<div class="article-image">
+						<img
+							src="assets/bloodsurgery.png"
+							alt="doctors"
+							class="image-banner"
+						/>
+					</div>
+
+					<div class="article-content">
+						<a href="#">
+							<h3 class="article-title">
+								The Role of Artificial Blood Products in Modern Medicine:
+								Opportunities and Challenges
+							</h3>
+						</a>
+						<p class="article-body">
+							Explores the development and application of artificial blood
+							products, highlighting their potential to alleviate blood supply
+							shortages and reduce the risk of transfusion-transmitted
+							infections.
+						</p>
+
+						<div class="article-footer">
+							<div class="author">
+								<picture>
+									<img
+										src="assets/Jasmine.jpg"
+										alt="emily"
+										class="author-avatar"
+									/>
+								</picture>
+								<div class="author-info">
+									<a href="#">
+										<h4 class="author-name">Jasmine Ming</h4>
+									</a>
+									<h5 class="publish-date">17 Aug 2023</h5>
+								</div>
+							</div>
+							<div class="share">
+								<button class="share-button">
+									<ion-icon name="arrow-redo"></ion-icon>
+								</button>
+
+								<div class="share-options">
+									<span>Share</span>
+
+									<a href="https://www.facebook.com/">
+										<ion-icon name="logo-facebook"></ion-icon>
+									</a>
+									<a href="https://twitter.com"
+										><ion-icon name="logo-twitter"></ion-icon
+									></a>
+									<a href="https://www.instagram.com/"
+										><ion-icon name="logo-instagram"></ion-icon
+									></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</article>
+			</div>
+			<div class="articles-right">
+				<article class="article-card">
+					<div class="article-image">
+						<img src="assets/doctors.png" alt="doctors" class="image-banner" />
+					</div>
+
+					<div class="article-content">
+						<a href="#">
+							<h3 class="article-title">
+								Blood Conservation Techniques in Cardiac Surgery: A
+								Multidisciplinary Approach
+							</h3>
+						</a>
+						<p class="article-body">
+							This article provides an in-depth review of the latest blood
+							conservation strategies in cardiac surgery, focusing on minimizing
+							blood loss and the need for transfusions while ensuring patient
+							safety and optimal outcomes.
+						</p>
+
+						<div class="article-footer">
+							<div class="author">
+								<picture>
+									<img
+										src="assets/Mike.png"
+										alt="emily"
+										class="author-avatar"
+									/>
+								</picture>
+								<div class="author-info">
+									<a href="#">
+										<h4 class="author-name">Mike Wazaoski</h4>
+									</a>
+									<h5 class="publish-date">12 Jun 2023</h5>
+								</div>
+							</div>
+							<div class="share">
+								<button class="share-button">
+									<ion-icon name="arrow-redo"></ion-icon>
+								</button>
+
+								<div class="share-options">
+									<span>Share</span>
+
+									<a href="https://www.facebook.com/">
+										<ion-icon name="logo-facebook"></ion-icon>
+									</a>
+									<a href="https://twitter.com"
+										><ion-icon name="logo-twitter"></ion-icon
+									></a>
+									<a href="https://www.instagram.com/"
+										><ion-icon name="logo-instagram"></ion-icon
+									></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</article>
+				<article class="article-card">
+					<div class="article-image">
+						<img
+							src="assets/bloodtesting.jpg"
+							alt="bloodtesting"
+							class="image-banner"
+						/>
+					</div>
+
+					<div class="article-content">
+						<a href="#">
+							<h3 class="article-title">
+								Decoding the Language of Your Bloodwork: A Comprehensive Guide
+							</h3>
+						</a>
+						<p class="article-body">
+							Embark on a journey through the intricate world of blood tests.
+							This comprehensive guide illuminates the significance of various
+							bloodwork panels—from complete blood counts to metabolic
+							panels—and deciphers what these tests reveal about your health.
+						</p>
+
+						<div class="article-footer">
+							<div class="author">
+								<picture>
+									<img
+										src="assets/david.png"
+										alt="david"
+										class="author-avatar"
+									/>
+								</picture>
+								<div class="author-info">
+									<a href="#">
+										<h4 class="author-name">David Walker</h4>
+									</a>
+									<h5 class="publish-date">27 May 2023</h5>
+								</div>
+							</div>
+							<div class="share">
+								<button class="share-button">
+									<ion-icon name="arrow-redo"></ion-icon>
+								</button>
+
+								<div class="share-options">
+									<span>Share</span>
+
+									<a href="https://www.facebook.com/">
+										<ion-icon name="logo-facebook"></ion-icon>
+									</a>
+									<a href="https://twitter.com"
+										><ion-icon name="logo-twitter"></ion-icon
+									></a>
+									<a href="https://www.instagram.com/"
+										><ion-icon name="logo-instagram"></ion-icon
+									></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</article>
+			</div>
+		</div>
+
+		<footer class="primary-footer">
+			<div class="footer-container">
+				<div class="footer-row">
+					<div class="footer-col">
+						<h4>Company</h4>
+						<ul>
+							<li><span>Our Mission</span></li>
+							<li><span>Privacy Policy</span></li>
+							<li><span>Terms & Services</span></li>
+						</ul>
+					</div>
+					<div class="footer-col">
+						<h4>Help</h4>
+						<ul>
+							<li><span>FAQ</span></li>
+							<li><span>Contact us</span></li>
+							<li><span>Affiliate Program</span></li>
+						</ul>
+					</div>
+					<div class="footer-col">
+						<h4>Follow Us</h4>
+						<ul>
+							<li>
+								<a href="https://www.facebook.com/">
+									<ion-icon name="logo-facebook"></ion-icon>
+								</a>
+							</li>
+							<li>
+								<a href="https://twitter.com"
+									><ion-icon name="logo-twitter"></ion-icon
+								></a>
+							</li>
+							<li>
+								<a href="https://www.instagram.com/"
+									><ion-icon name="logo-instagram"></ion-icon
+								></a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+		<!-- Ionicon import -->
+		<script
+			type="module"
+			src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+		></script>
+		<script
+			nomodule
+			src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+		></script>
+	</body>
+</html>

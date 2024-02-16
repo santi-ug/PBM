@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="author" content="Santiago Uribe Gil" />
+		<meta name="application-name" content="Taller 1 HTML" />
+		<link rel="icon" href="assets/logo.png" />
+		<link rel="stylesheet" href="css/style.css" />
+		<script src="main.js"></script>
+		<title>Taller 1</title>
+	</head>
+
+	<body>
+		<header class="primary-header">
+			<div class="logo">
+				<a href="index.html">
+					<img src="assets/logo.png" alt="logo" />
+				</a>
+			</div>
+			<nav class>
+				<ul class="primary-navigation">
+					<li>
+						<a href="aboutus.html">About Us</a>
+					</li>
+					<li>
+						<a href="videos.html">Videos</a>
+					</li>
+					<li>
+						<a href="articles.html">Articles</a>
+					</li>
+					<li>
+						<a href="login.html">Login</a>
+					</li>
+					<li>
+						<a href="register.html">Register</a>
+					</li>
+				</ul>
+			</nav>
+		</header>
+
+		<section class="login">
+			<img
+				src="assets/erik-mclean-AW7p7dXwG5U-unsplash.jpg"
+				alt="login-background"
+			/>
+			<div class="login-container">
+				<h1 class="login-title">Sign in</h1>
+				<form action="">
+					<div class="form-row">
+						<ion-icon name="person-outline" class="user-icon"></ion-icon>
+						<input type="text" placeholder="Username" />
+						<ion-icon name="checkmark-outline" class="check-icon"></ion-icon>
+					</div>
+					<div class="form-row">
+						<ion-icon name="lock-closed-outline" class="pass-icon"></ion-icon>
+						<input type="text" placeholder="Password" />
+						<ion-icon name="eye-outline" class="eye-icon"></ion-icon>
+					</div>
+					<div class="form-row">
+						<ion-icon name="square-outline" class="remember-icon"></ion-icon>
+						<span>Remember Me</span>
+						<input type="submit" value="Login" />
+					</div>
+				</form>
+				<a href="#">Forgot password?</a>
+			</div>
+		</section>
+
+		<footer class="primary-footer">
+			<div class="footer-container">
+				<div class="footer-row">
+					<div class="footer-col">
+						<h4>Company</h4>
+						<ul>
+							<li><span>Our Mission</span></li>
+							<li><span>Privacy Policy</span></li>
+							<li><span>Terms & Services</span></li>
+						</ul>
+					</div>
+					<div class="footer-col">
+						<h4>Help</h4>
+						<ul>
+							<li><span>FAQ</span></li>
+							<li><span>Contact us</span></li>
+							<li><span>Affiliate Program</span></li>
+						</ul>
+					</div>
+					<div class="footer-col">
+						<h4>Follow Us</h4>
+						<ul>
+							<li>
+								<a href="https://www.facebook.com/">
+									<ion-icon name="logo-facebook"></ion-icon>
+								</a>
+							</li>
+							<li>
+								<a href="https://twitter.com"
+									><ion-icon name="logo-twitter"></ion-icon
+								></a>
+							</li>
+							<li>
+								<a href="https://www.instagram.com/"
+									><ion-icon name="logo-instagram"></ion-icon
+								></a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+		<!-- Ionicon import -->
+		<script
+			type="module"
+			src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+		></script>
+		<script
+			nomodule
+			src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+		></script>
+	</body>
+</html>

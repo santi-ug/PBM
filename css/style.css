@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Signika+Negative:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Manjari:wght@100;400;700&family=Signika+Negative:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Signika+Negative:wght@300..700&display=swap');
+
+@import url("sections/header.css");
+@import url("sections/register.css");
+@import url("sections/hero.css");
+@import url("sections/footer.css");
+@import url("sections/aboutus.css");
+@import url("sections/articles.css");
+@import url("sections/videos.css");
+@import url("sections/login.css");
+
+:root {
+    --lato: 'Lato', sans-serif;
+    --inter: 'Inter', sans-serif;
+    --manjari: 'Manjari', sans-serif;
+    --signika: 'Outfit', sans-serif;
+
+    --rose: rgba(226,37,43,255);
+    --apple: rgba(169,27,13,255);
+    --blush: #AF1B2F;
+    --blush-hover: #c9766d;
+
+    --white: #fff;
+    --black: #000;
+    --accent: #EA5768;
+    --primary: #F08491;
+    --bg: #F1F5FF;
+
+}
+
+html {
+    font-family: var(--lato);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
